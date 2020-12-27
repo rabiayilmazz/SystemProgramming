@@ -13,6 +13,27 @@
 * ***s*** Socket
 * ***?*** Diğer dosya tipi
 
+```
+ls -lt | head
+```
+* en son değişiklik yapılan ilk on dosyayı  listeler.
+
+```
+files=( * )
+# iterate over them
+for file in "${files[@]}"; do
+ echo "$file"
+done
+```
+* Dizindeki dosyaları listeler.
+
+## Prosesleri listeleme
+
+```
+ps -ef # tüm prosesler
+ps aux # tüm prosesler alternatif
+```
+
 ## Ekrana çıktı vermek
 ```
 world="World"
