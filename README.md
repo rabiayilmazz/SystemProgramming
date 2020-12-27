@@ -34,6 +34,13 @@ ps -ef # tüm prosesler
 ps aux # tüm prosesler alternatif
 ```
 
+## Yönlendirmeler
+```
+ls >file.txt
+> file.txt ls
+```
+* İki kod da ls çıktısını belirtilen dosyaya aktarır.Yoksa oluşturur, varsa üzerine yazar. Varsayılan yönlendirme 1 ile gösterilir.
+
 ## Ekrana çıktı vermek
 ```
 world="World"
