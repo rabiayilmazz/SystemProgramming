@@ -69,8 +69,16 @@ i=$(expr $i + 1)
 done
 ```
 
-##Dosya okuma
+## Dosya okuma
 ```
 cat < file.txt #  ya da
 printf "birinci satır\nikinci satır\n" | cat -n
+```
+
+## Dosya sıkıştırma
+```
+echo 'Hello world!' > hello.txt
+echo 'Merhaba Dünya' > merhaba.txt
+gzip hello.txt
+gzip howdy.txt
 ```
