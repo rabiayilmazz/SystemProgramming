@@ -81,4 +81,7 @@ echo 'Hello world!' > hello.txt
 echo 'Merhaba Dünya' > merhaba.txt
 gzip hello.txt
 gzip howdy.txt
+cat hello.txt.gz howdy.txt.gz > greetings.txt.gz #sıkıştırılmış dosyaları birleştirme
+gunzip greetings.txt.gz #Sıkıştırılmış dosyayı dışarı çıkarma 
+cat greetings.txt
 ```
