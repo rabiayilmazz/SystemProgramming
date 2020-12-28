@@ -82,6 +82,13 @@ echo 'Merhaba Dünya' > merhaba.txt
 gzip hello.txt
 gzip howdy.txt
 cat hello.txt.gz howdy.txt.gz > greetings.txt.gz #sıkıştırılmış dosyaları birleştirme
-gunzip greetings.txt.gz #Sıkıştırılmış dosyayı dışarı çıkarma 
+gunzip greetings.txt.gz #Sıkıştırılmış dosyayı dışarı çıkarma
 cat greetings.txt
+```
+
+## Dosya çubuğunda kelime arama
+```
+grep foo ~ /Masaüstü/bar #Dosya çubuğunda foo kelimesini bulmak için:
+grep –v foo ~/Masaüstü/bar #Dosya çubuğunda foo içermeyen tüm satırları bulmak için:
+grep "* foo" ~/Masaüstü/bar #Sonunda foo içeren tüm kelimeleri bulmak için (WIldcard Expansion):
 ```
