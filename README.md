@@ -88,7 +88,7 @@ cat greetings.txt
 
 ## Dosya çubuğunda kelime arama
 ```
-grep foo ~ /Masaüstü/bar #Dosya çubuğunda foo kelimesini bulmak için:
-grep –v foo ~/Masaüstü/bar #Dosya çubuğunda foo içermeyen tüm satırları bulmak için:
-grep "* foo" ~/Masaüstü/bar #Sonunda foo içeren tüm kelimeleri bulmak için (WIldcard Expansion):
+grep kelime ~ /Masaüstü/bar #Dosya çubuğunda kelime kelimesini bulmak için:
+grep –v kelime ~/Masaüstü/bar #Dosya çubuğunda kelime içermeyen tüm satırları bulmak için:
+grep "* kelime" ~/Masaüstü/bar #Sonunda kelime içeren tüm kelimeleri bulmak için (WIldcard Expansion):
 ```
