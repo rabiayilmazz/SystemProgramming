@@ -71,5 +71,6 @@ done
 
 ##Dosya okuma
 ```
-cat < file.txt
+cat < file.txt #  ya da
+printf "birinci satır\nikinci satır\n" | cat -n
 ```
