@@ -68,3 +68,8 @@ echo "${arr[$i]}"
 i=$(expr $i + 1)
 done
 ```
+
+##Dosya okuma
+```
+cat < file.txt
+```
