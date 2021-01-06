@@ -92,3 +92,11 @@ grep kelime ~ /Masaüstü/bar #Dosya çubuğunda kelime kelimesini bulmak için:
 grep –v kelime ~/Masaüstü/bar #Dosya çubuğunda kelime içermeyen tüm satırları bulmak için:
 grep "* kelime" ~/Masaüstü/bar #Sonunda kelime içeren tüm kelimeleri bulmak için (WIldcard Expansion):
 ```
+
+Fonksiyonlar
+
+Giriş çıkış işlemleri 
+
+Veri okuma
+
+Dosya işlemleri
