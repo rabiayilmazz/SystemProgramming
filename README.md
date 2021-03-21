@@ -1,3 +1,5 @@
+#Temel Sistem Programlama Bilgileri
+
 ## Dosya tipleri
 * ***-*** Düzenli
 * ***b*** Blok
