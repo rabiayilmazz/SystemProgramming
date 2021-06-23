@@ -1,4 +1,4 @@
-#Temel Sistem Programlama Bilgileri
+#Temel Sistem Programlama Bilgileri (Linux)
 
 ## Dosya tipleri 
 * ***-*** Düzenli
