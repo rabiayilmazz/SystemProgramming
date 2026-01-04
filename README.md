@@ -4,6 +4,8 @@
 
 🔗 Project URL: [project url](https://github.com/rabiayilmazz/SystemProgramming/blob/master/server-stats.sh)
 
+project url: https://roadmap.sh/projects/server-stats
+
 
 ## Dosya tipleri 
 * ***-*** Düzenli
